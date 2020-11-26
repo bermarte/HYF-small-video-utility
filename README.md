@@ -2,7 +2,7 @@
 
 A little  script used to convert the lesson of HYF available on [openknowledge.be](https://meet.openknowledge.be/playback/presentation/2.0/playback.html?meetingId=48966e92bc14f80c53d450f9e59dc77e812b2f8b-1605437686426)
 
-### two files needed are:
+### two files are needed to run this script:
 
 [webcams.mp4](https://meet.openknowledge.be/presentation/48966e92bc14f80c53d450f9e59dc77e812b2f8b-1605437686426/video/webcams.mp4)
 
