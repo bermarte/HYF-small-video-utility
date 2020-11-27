@@ -16,3 +16,17 @@ The first file has also the audio to be extracted and merged to the second file.
 
 Node, npm and fluent-ffmpeg are required, to run the script:
 `node ffmpeg.js `
+
+---
+### Using directly ffmpeg
+to extract the audio stream:
+```bash
+
+ffmpeg -i /path/to/webcams.mp4 -vn -acodec copy /path/to/webcams.aac
+```
+muxing audio and video:
+```bash
+
+ffmpeg -i /path/to/deskshare.mp4 -i /path/to/webcams.aac -c copy /path/to/out.mp4
+```
+
